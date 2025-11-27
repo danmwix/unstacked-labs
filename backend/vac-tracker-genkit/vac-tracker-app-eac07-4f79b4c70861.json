@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "vac-tracker-app-eac07",
+  "private_key_id": "4f79b4c708617f75f4462650353fb015f5c71144",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQClRN6FJUW/OC3z\n3iEiXGWtrsXiWOlOglYLENy5E040Qfmy2HTcRXxEkOQIriBWxr3Y6dnbZ05btheE\nVhgnoXMPra+sVuh9d/UVUBIqjHJ8RdT33u5VioHBjMVcCeSVigNTDxJlg6Z8oGlM\nKe7QsqqWMOxkCYHZgWhtWYLHV2pUzUxIP54ikmPtaXoCTP+cBiMA010iNVMuRVEX\nkGb8MEaaUcr58AvjZn7h3815YJnbxHjZEtJda3+QqpOhdyATgMfTb19ZQOEPweQA\nNEvcUlDyzmYO982bW4d2zITYvXO3hMnLvO6yFyXkX+fcBnaY2vVXMLbUDXhmU/Rv\nwdbBC19VAgMBAAECggEARvUcvPnVylXqlOvoOgKFvV5uo9IcyZJ4MuQYgHXje9hf\nxwPcmL5UrnOvFHL+e4N0+27cFLF0GThDPJRiZpGQ/0hJRqtBwq0AUxg/1HjcprKs\nz4etuJhxQZKZIf01YWcSKlUsRt2RW6zbyNGwMXakezuiIwlZ8PL4zQpDdib4BlQ2\nLSrZlagkAnU44n9jBjnxyrn35/LbRYrslDvYrOHj/xdlil9htWHbvIOzxEjxowsQ\nqYrQeiff7qbbyu6SkHufZ7uwouhlXrEJnSXWmH+KmW0SmvXQVQIJVogvcnC/X2iy\n5iWerdIVkHjbMPkLzro+Rx16DoPkAF33NUwuFhZA+QKBgQDOjrAEAN9pMWlfg5jt\nwWv1+msjQF5sIlnG4IBVivFSuGzINRCzK+Si3YpscePWBWVF29mwCfyJHeIWhvPJ\n45zcgKQHR32Wbdj0wasTQwLhySNMu+SZyBqC3RfB4cQwLX2ZRC2zLZj7RjtwOwhZ\ncU9TKp+6+IBEM0iYyjQZzKAqIwKBgQDM1CLRwJbjRjTOIPR4SGy41lXcTP0tBl5W\naywePukYhTD5N9zs/UZZJc0WkjnElWMv0UjWS0dGviAwhLOm1yos1cJoCkG3DX/U\n27yN72mlDPU/Wpq2+Yj66jpWv0rD+8n+VlD58bLQLas/li6ZZihUHnLN263vEgAr\n2jfzDJR8JwKBgAWAw6u3ojwZNud2iBJ9frTU8RnFUz6qQ54KySB+TSOZCjzjPQio\n+LRmFpQBDMLc7e/Ihaos+e9lPmq/Oat9RuaQ/s2619u0HX2X00j2FhOR2kDnGJYI\nQLyPy1w8+Y8XByuYJ2eIpXS8UEUTLYvEewqKLis7B5/JhfucF3tAelvlAoGAOH6a\nS/gupekLT39Pbo2rTx/u9qBVhEGpa3SL6pu3dwflhheeW89Pw+7lLkCOpmX9wYab\n7F8+/YgbIMa5Nl9KRqt+v2t0zKRwialBzHQoU1nLmvnGiokw+uP3y01ftcaQ5BGy\nq/26MCkofpVRrQW8QddUGutogfQZD/9URzlFCykCgYA7Puh90wkh8mB44rtAOujg\n8And82yCCsBf3q/cKaGDfMPnPo/7IQ45CY8DrRWFmL//cjgC/0KLbdpbm7RKds8z\n+yOKyQCak22q6+r93J1do1MRSyw+S3kMTovIOeJMsliXkAUyIBfcOyQKBNoulxPx\njYrM8QYopKJ8iIwZ6mYD8g==\n-----END PRIVATE KEY-----\n",
+  "client_email": "vertex-ai-genkit@vac-tracker-app-eac07.iam.gserviceaccount.com",
+  "client_id": "109785026731462908840",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/vertex-ai-genkit%40vac-tracker-app-eac07.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

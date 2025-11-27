@@ -1,0 +1,26 @@
+<mat-card class="login-card">
+  <mat-card-header>
+    <mat-card-title>Login with Phone</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <form>
+      <mat-form-field appearance="fill">
+        <mat-label>Phone Number</mat-label>
+        <input matInput [(ngModel)]="phoneNumber" placeholder="+1234567890" name="phoneNumber" required />
+        <mat-error *ngIf="!phoneNumber.startsWith('+')">Must start with +</mat-error>
+      </mat-form-field>
+      <button mat-raised-button color="primary" (click)="sendOTP()">Send OTP</button>
+    </form>
+    <div id="recaptcha-container"></div>
+    <div *ngIf="confirmationResult">
+      <mat-form-field appearance="fill">
+        <mat-label>Enter OTP</mat-label>
+        <input matInput [(ngModel)]="otp" placeholder="Enter OTP" name="otp" required />
+      </mat-form-field>
+      <button mat-raised-button color="accent" (click)="verifyOTP()">Verify OTP</button>
+    </div>
+  </mat-card-content>
+  <mat-card-actions>
+    <a mat-button routerLink="/register-child">Go to Child Registration</a>
+  </mat-card-actions>
+</mat-card>

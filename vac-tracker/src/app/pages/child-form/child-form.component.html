@@ -1,0 +1,25 @@
+<mat-card class="child-form-card">
+  <mat-card-header>
+    <mat-card-title>Register Child</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <form (ngSubmit)="onSubmit()">
+      <mat-form-field appearance="fill">
+        <mat-label>Child Name</mat-label>
+        <input matInput [(ngModel)]="name" placeholder="Child Name" name="name" required />
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Date of Birth</mat-label>
+        <input matInput [(ngModel)]="dob" type="date" name="dob" required />
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Parent Phone</mat-label>
+        <input matInput [(ngModel)]="parentPhone" placeholder="+2547XXXXXXXX" name="parentPhone" required />
+      </mat-form-field>
+      <button mat-raised-button color="primary" type="submit" [disabled]="loading">Register Child</button>
+    </form>
+  </mat-card-content>
+  <mat-card-actions>
+    <a mat-button routerLink="/">Back to Login</a>
+  </mat-card-actions>
+</mat-card>
